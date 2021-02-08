@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -27,15 +27,15 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="803d36ee-8b80-46aa-8ca4-c94dee64bd00">
-      <console name="Connection" type="STANDARD" schema="users" session="Main" />
+    <connection id="41d6cf54-4b7d-4dc4-842b-2c198890fd96">
+      <console name="Connection" type="STANDARD" schema="mysql" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="803d36ee-8b80-46aa-8ca4-c94dee64bd00" />
+    <connection id="41d6cf54-4b7d-4dc4-842b-2c198890fd96" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -63,7 +63,7 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="803d36ee-8b80-46aa-8ca4-c94dee64bd00" active="true">
+      <connection id="41d6cf54-4b7d-4dc4-842b-2c198890fd96" active="true">
         <database>
           <name value="Connection" />
           <description value="" />
@@ -76,13 +76,13 @@
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="3306" />
-          <database value="jdbdtest" />
+          <database value="mysql" />
           <type value="USER_PASSWORD" />
           <user value="root" />
           <deprecated-pwd value="cm9vdA==" />
         </database>
         <properties>
-          <auto-commit value="true" />
+          <auto-commit value="false" />
         </properties>
         <ssh-settings>
           <active value="false" />
@@ -289,7 +289,6 @@
           <content-type name="FTL" enabled="true" />
           <content-type name="GSP" enabled="true" />
           <content-type name="VTL" enabled="true" />
-          <content-type name="AIDL" enabled="true" />
           <content-type name="YAML" enabled="true" />
           <content-type name="Manifest" enabled="true" />
         </content-types>
